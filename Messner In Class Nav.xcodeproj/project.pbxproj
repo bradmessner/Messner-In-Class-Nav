@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B747CC5A2415E5AC00DDCDDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747CC592415E5AC00DDCDDE /* AppDelegate.swift */; };
+		B747CC5C2415E5AC00DDCDDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747CC5B2415E5AC00DDCDDE /* SceneDelegate.swift */; };
+		B747CC5E2415E5AC00DDCDDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747CC5D2415E5AC00DDCDDE /* ViewController.swift */; };
+		B747CC612415E5AC00DDCDDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B747CC5F2415E5AC00DDCDDE /* Main.storyboard */; };
+		B747CC632415E5AE00DDCDDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B747CC622415E5AE00DDCDDE /* Assets.xcassets */; };
+		B747CC662415E5AE00DDCDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B747CC642415E5AE00DDCDDE /* LaunchScreen.storyboard */; };
+		B747CC712415E5AE00DDCDDE /* Messner_In_Class_NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747CC702415E5AE00DDCDDE /* Messner_In_Class_NavTests.swift */; };
+		B747CC7C2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747CC7B2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B747CC6D2415E5AE00DDCDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B747CC4E2415E5AC00DDCDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B747CC552415E5AC00DDCDDE;
+			remoteInfo = "Messner In Class Nav";
+		};
+		B747CC782415E5AE00DDCDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B747CC4E2415E5AC00DDCDDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B747CC552415E5AC00DDCDDE;
+			remoteInfo = "Messner In Class Nav";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B747CC562415E5AC00DDCDDE /* Messner In Class Nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Messner In Class Nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B747CC592415E5AC00DDCDDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B747CC5B2415E5AC00DDCDDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B747CC5D2415E5AC00DDCDDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B747CC602415E5AC00DDCDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B747CC622415E5AE00DDCDDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B747CC652415E5AE00DDCDDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B747CC672415E5AE00DDCDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B747CC6C2415E5AE00DDCDDE /* Messner In Class NavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner In Class NavTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B747CC702415E5AE00DDCDDE /* Messner_In_Class_NavTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_In_Class_NavTests.swift; sourceTree = "<group>"; };
+		B747CC722415E5AE00DDCDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B747CC772415E5AE00DDCDDE /* Messner In Class NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner In Class NavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B747CC7B2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_In_Class_NavUITests.swift; sourceTree = "<group>"; };
+		B747CC7D2415E5AE00DDCDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B747CC532415E5AC00DDCDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B747CC692415E5AE00DDCDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B747CC742415E5AE00DDCDDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B747CC4D2415E5AC00DDCDDE = {
+			isa = PBXGroup;
+			children = (
+				B747CC582415E5AC00DDCDDE /* Messner In Class Nav */,
+				B747CC6F2415E5AE00DDCDDE /* Messner In Class NavTests */,
+				B747CC7A2415E5AE00DDCDDE /* Messner In Class NavUITests */,
+				B747CC572415E5AC00DDCDDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B747CC572415E5AC00DDCDDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B747CC562415E5AC00DDCDDE /* Messner In Class Nav.app */,
+				B747CC6C2415E5AE00DDCDDE /* Messner In Class NavTests.xctest */,
+				B747CC772415E5AE00DDCDDE /* Messner In Class NavUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B747CC582415E5AC00DDCDDE /* Messner In Class Nav */ = {
+			isa = PBXGroup;
+			children = (
+				B747CC592415E5AC00DDCDDE /* AppDelegate.swift */,
+				B747CC5B2415E5AC00DDCDDE /* SceneDelegate.swift */,
+				B747CC5D2415E5AC00DDCDDE /* ViewController.swift */,
+				B747CC5F2415E5AC00DDCDDE /* Main.storyboard */,
+				B747CC622415E5AE00DDCDDE /* Assets.xcassets */,
+				B747CC642415E5AE00DDCDDE /* LaunchScreen.storyboard */,
+				B747CC672415E5AE00DDCDDE /* Info.plist */,
+			);
+			path = "Messner In Class Nav";
+			sourceTree = "<group>";
+		};
+		B747CC6F2415E5AE00DDCDDE /* Messner In Class NavTests */ = {
+			isa = PBXGroup;
+			children = (
+				B747CC702415E5AE00DDCDDE /* Messner_In_Class_NavTests.swift */,
+				B747CC722415E5AE00DDCDDE /* Info.plist */,
+			);
+			path = "Messner In Class NavTests";
+			sourceTree = "<group>";
+		};
+		B747CC7A2415E5AE00DDCDDE /* Messner In Class NavUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B747CC7B2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift */,
+				B747CC7D2415E5AE00DDCDDE /* Info.plist */,
+			);
+			path = "Messner In Class NavUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B747CC552415E5AC00DDCDDE /* Messner In Class Nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B747CC802415E5AE00DDCDDE /* Build configuration list for PBXNativeTarget "Messner In Class Nav" */;
+			buildPhases = (
+				B747CC522415E5AC00DDCDDE /* Sources */,
+				B747CC532415E5AC00DDCDDE /* Frameworks */,
+				B747CC542415E5AC00DDCDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Messner In Class Nav";
+			productName = "Messner In Class Nav";
+			productReference = B747CC562415E5AC00DDCDDE /* Messner In Class Nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B747CC6B2415E5AE00DDCDDE /* Messner In Class NavTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B747CC832415E5AE00DDCDDE /* Build configuration list for PBXNativeTarget "Messner In Class NavTests" */;
+			buildPhases = (
+				B747CC682415E5AE00DDCDDE /* Sources */,
+				B747CC692415E5AE00DDCDDE /* Frameworks */,
+				B747CC6A2415E5AE00DDCDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B747CC6E2415E5AE00DDCDDE /* PBXTargetDependency */,
+			);
+			name = "Messner In Class NavTests";
+			productName = "Messner In Class NavTests";
+			productReference = B747CC6C2415E5AE00DDCDDE /* Messner In Class NavTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B747CC762415E5AE00DDCDDE /* Messner In Class NavUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B747CC862415E5AE00DDCDDE /* Build configuration list for PBXNativeTarget "Messner In Class NavUITests" */;
+			buildPhases = (
+				B747CC732415E5AE00DDCDDE /* Sources */,
+				B747CC742415E5AE00DDCDDE /* Frameworks */,
+				B747CC752415E5AE00DDCDDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B747CC792415E5AE00DDCDDE /* PBXTargetDependency */,
+			);
+			name = "Messner In Class NavUITests";
+			productName = "Messner In Class NavUITests";
+			productReference = B747CC772415E5AE00DDCDDE /* Messner In Class NavUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B747CC4E2415E5AC00DDCDDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Brad D. Messner";
+				TargetAttributes = {
+					B747CC552415E5AC00DDCDDE = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B747CC6B2415E5AE00DDCDDE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B747CC552415E5AC00DDCDDE;
+					};
+					B747CC762415E5AE00DDCDDE = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B747CC552415E5AC00DDCDDE;
+					};
+				};
+			};
+			buildConfigurationList = B747CC512415E5AC00DDCDDE /* Build configuration list for PBXProject "Messner In Class Nav" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B747CC4D2415E5AC00DDCDDE;
+			productRefGroup = B747CC572415E5AC00DDCDDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B747CC552415E5AC00DDCDDE /* Messner In Class Nav */,
+				B747CC6B2415E5AE00DDCDDE /* Messner In Class NavTests */,
+				B747CC762415E5AE00DDCDDE /* Messner In Class NavUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B747CC542415E5AC00DDCDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B747CC662415E5AE00DDCDDE /* LaunchScreen.storyboard in Resources */,
+				B747CC632415E5AE00DDCDDE /* Assets.xcassets in Resources */,
+				B747CC612415E5AC00DDCDDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B747CC6A2415E5AE00DDCDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B747CC752415E5AE00DDCDDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B747CC522415E5AC00DDCDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B747CC5E2415E5AC00DDCDDE /* ViewController.swift in Sources */,
+				B747CC5A2415E5AC00DDCDDE /* AppDelegate.swift in Sources */,
+				B747CC5C2415E5AC00DDCDDE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B747CC682415E5AE00DDCDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B747CC712415E5AE00DDCDDE /* Messner_In_Class_NavTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B747CC732415E5AE00DDCDDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B747CC7C2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B747CC6E2415E5AE00DDCDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B747CC552415E5AC00DDCDDE /* Messner In Class Nav */;
+			targetProxy = B747CC6D2415E5AE00DDCDDE /* PBXContainerItemProxy */;
+		};
+		B747CC792415E5AE00DDCDDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B747CC552415E5AC00DDCDDE /* Messner In Class Nav */;
+			targetProxy = B747CC782415E5AE00DDCDDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B747CC5F2415E5AC00DDCDDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B747CC602415E5AC00DDCDDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B747CC642415E5AE00DDCDDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B747CC652415E5AE00DDCDDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B747CC7E2415E5AE00DDCDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B747CC7F2415E5AE00DDCDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B747CC812415E5AE00DDCDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class Nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B747CC822415E5AE00DDCDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class Nav/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-Nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B747CC842415E5AE00DDCDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class NavTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-NavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner In Class Nav.app/Messner In Class Nav";
+			};
+			name = Debug;
+		};
+		B747CC852415E5AE00DDCDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class NavTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-NavTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Messner In Class Nav.app/Messner In Class Nav";
+			};
+			name = Release;
+		};
+		B747CC872415E5AE00DDCDDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class NavUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-NavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner In Class Nav";
+			};
+			name = Debug;
+		};
+		B747CC882415E5AE00DDCDDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDN3D9643Z;
+				INFOPLIST_FILE = "Messner In Class NavUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bradmessner.com.Messner-In-Class-NavUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Messner In Class Nav";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B747CC512415E5AC00DDCDDE /* Build configuration list for PBXProject "Messner In Class Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B747CC7E2415E5AE00DDCDDE /* Debug */,
+				B747CC7F2415E5AE00DDCDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B747CC802415E5AE00DDCDDE /* Build configuration list for PBXNativeTarget "Messner In Class Nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B747CC812415E5AE00DDCDDE /* Debug */,
+				B747CC822415E5AE00DDCDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B747CC832415E5AE00DDCDDE /* Build configuration list for PBXNativeTarget "Messner In Class NavTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B747CC842415E5AE00DDCDDE /* Debug */,
+				B747CC852415E5AE00DDCDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B747CC862415E5AE00DDCDDE /* Build configuration list for PBXNativeTarget "Messner In Class NavUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B747CC872415E5AE00DDCDDE /* Debug */,
+				B747CC882415E5AE00DDCDDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B747CC4E2415E5AC00DDCDDE /* Project object */;
+}
