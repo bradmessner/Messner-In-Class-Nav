@@ -15,6 +15,10 @@
 		B747CC662415E5AE00DDCDDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B747CC642415E5AE00DDCDDE /* LaunchScreen.storyboard */; };
 		B747CC712415E5AE00DDCDDE /* Messner_In_Class_NavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747CC702415E5AE00DDCDDE /* Messner_In_Class_NavTests.swift */; };
 		B747CC7C2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747CC7B2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift */; };
+		B78FB04424191E3D00EA0696 /* TabOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FB04324191E3D00EA0696 /* TabOneVC.swift */; };
+		B78FB04624191E5000EA0696 /* TabTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FB04524191E5000EA0696 /* TabTwoVC.swift */; };
+		B78FB04824191E5F00EA0696 /* TabThreeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FB04724191E5F00EA0696 /* TabThreeVC.swift */; };
+		B78FB04A24191F9B00EA0696 /* ManagementTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78FB04924191F9B00EA0696 /* ManagementTabVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B747CC772415E5AE00DDCDDE /* Messner In Class NavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Messner In Class NavUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B747CC7B2415E5AE00DDCDDE /* Messner_In_Class_NavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messner_In_Class_NavUITests.swift; sourceTree = "<group>"; };
 		B747CC7D2415E5AE00DDCDDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B78FB04324191E3D00EA0696 /* TabOneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneVC.swift; sourceTree = "<group>"; };
+		B78FB04524191E5000EA0696 /* TabTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoVC.swift; sourceTree = "<group>"; };
+		B78FB04724191E5F00EA0696 /* TabThreeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabThreeVC.swift; sourceTree = "<group>"; };
+		B78FB04924191F9B00EA0696 /* ManagementTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagementTabVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				B747CC5B2415E5AC00DDCDDE /* SceneDelegate.swift */,
 				B747CC5D2415E5AC00DDCDDE /* ViewController.swift */,
 				B747CC5F2415E5AC00DDCDDE /* Main.storyboard */,
+				B78FB04924191F9B00EA0696 /* ManagementTabVC.swift */,
+				B78FB04324191E3D00EA0696 /* TabOneVC.swift */,
+				B78FB04524191E5000EA0696 /* TabTwoVC.swift */,
+				B78FB04724191E5F00EA0696 /* TabThreeVC.swift */,
 				B747CC622415E5AE00DDCDDE /* Assets.xcassets */,
 				B747CC642415E5AE00DDCDDE /* LaunchScreen.storyboard */,
 				B747CC672415E5AE00DDCDDE /* Info.plist */,
@@ -260,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B747CC5E2415E5AC00DDCDDE /* ViewController.swift in Sources */,
+				B78FB04824191E5F00EA0696 /* TabThreeVC.swift in Sources */,
 				B747CC5A2415E5AC00DDCDDE /* AppDelegate.swift in Sources */,
+				B78FB04624191E5000EA0696 /* TabTwoVC.swift in Sources */,
+				B78FB04A24191F9B00EA0696 /* ManagementTabVC.swift in Sources */,
 				B747CC5C2415E5AC00DDCDDE /* SceneDelegate.swift in Sources */,
+				B78FB04424191E3D00EA0696 /* TabOneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
